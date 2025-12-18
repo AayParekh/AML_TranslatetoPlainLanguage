@@ -1,11 +1,11 @@
 # AML_TranslatetoPlainLanguage
 
-Project Overview
+## Project Overview
 This repository contains the codebase and experimental results for a sequence-to-sequence (Seq2Seq) text simplification system. The project leverages BART (Bidirectional and Auto-Regressive Transformers) to translate complex English text into "Plain Language" to improve accessibility for individuals with learning disabilities or limited English proficiency.
 
 The approach bridges the gap between traditional supervised Seq2Seq simplification and modern parameter-efficient fine-tuning techniques. We investigate the impact of task-specific fine-tuning, hyperparameter optimization, and Low-Rank Adaptation (LoRA) on simplification performance.
 
-Datasets
+## Datasets
 1. ASSET (Abstractive Sentence Simplification Evaluation and Tuning)
 
 Source: A standard benchmark derived from Wikipedia and Simple English Wikipedia.
@@ -24,7 +24,7 @@ Constraint: Generation conditioned on random topics to ensure lexical diversity 
 
 Preprocessing: A 10% uniform subsample of the synthetic test set was used for evaluation to maintain balance with ASSET.
 
-Methodology
+## Methodology
 We implemented four distinct model configurations to isolate the effects of training strategies:
 
 M0: Zero-Shot Baseline
@@ -63,7 +63,7 @@ Configuration: Frozen base model weights; trainable adapters inserted into query
 
 Purpose: Evaluates performance efficiency trade-offs (comparable results with fewer trainable parameters).
 
-Metrics
+## Metrics
 We utilized three primary metrics to evaluate performance:
 
 Flesch-Kincaid Grade Level (FKG): Measures readability based on sentence length and syllable count. Lower scores indicate better readability.
