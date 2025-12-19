@@ -1,7 +1,7 @@
 # Plain Language Text Simplification with BART
 **Applied Machine Learning Final Project**
 
-*Aayush Parekh, Jiwon Bae, Simryn Parikh, Udita Bajaj*
+*Authors: Aayush Parekh, Jiwon Bae, Simryn Parikh, Udita Bajaj*
 
 ## Project Overview
 This repository contains the codebase and experimental results for a sequence-to-sequence (Seq2Seq) text simplification system. The project leverages BART (Bidirectional and Auto-Regressive Transformers) to translate complex English text into "Plain Language" to improve accessibility for individuals with learning disabilities or limited English proficiency.
@@ -58,11 +58,11 @@ M2: Supervised Fine-Tuning (Tuned)
 
 - Hyperparameters:
 
--- Transformer dropout and attention dropout enabled.
+  - Transformer dropout and attention dropout enabled.
 
--- Linear learning-rate schedule with warmup.
+  - Linear learning-rate schedule with warmup.
 
--- Weight decay and label smoothing to prevent overfitting.
+  - Weight decay and label smoothing to prevent overfitting.
 
 M3: Parameter-Efficient Fine-Tuning (LoRA)
 
