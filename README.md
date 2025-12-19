@@ -1,5 +1,6 @@
 # Plain Language Text Simplification with BART
 **Applied Machine Learning Final Project**
+
 *Aayush Parekh, Jiwon Bae, Simryn Parikh, Udita Bajaj*
 
 ## Project Overview
