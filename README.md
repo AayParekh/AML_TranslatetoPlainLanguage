@@ -1,9 +1,17 @@
-# AML_TranslatetoPlainLanguage
+# Plain Language Text Simplification with BART
+## Applied Machine Learning Final Project
+*Aayush Parekh, Jiwon Bae, Simryn Parikh, Udita Bajaj*
 
 ## Project Overview
 This repository contains the codebase and experimental results for a sequence-to-sequence (Seq2Seq) text simplification system. The project leverages BART (Bidirectional and Auto-Regressive Transformers) to translate complex English text into "Plain Language" to improve accessibility for individuals with learning disabilities or limited English proficiency.
 
 The approach bridges the gap between traditional supervised Seq2Seq simplification and modern parameter-efficient fine-tuning techniques. We investigate the impact of task-specific fine-tuning, hyperparameter optimization, and Low-Rank Adaptation (LoRA) on simplification performance.
+
+## Links
+- Hugging Face Repo
+  https://huggingface.co/jiwonbae1124/bart-simplifier-readability
+- Demo app
+  https://barttranslatetoplainlanguage-mvlwjbrwcidkpxpczzpsx2.streamlit.app
 
 ## Datasets
 1. ASSET (Abstractive Sentence Simplification Evaluation and Tuning)
