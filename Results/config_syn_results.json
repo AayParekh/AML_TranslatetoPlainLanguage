@@ -1,0 +1,52 @@
+{
+  "dataset_size": 447,
+  "flesch_kincaid": {
+    "original": {
+      "mean": 21.89,
+      "std": 2.69,
+      "median": 21.8
+    },
+    "pred": {
+      "mean": 12.19,
+      "std": 2.92,
+      "median": 12.25
+    },
+    "improvement": 9.7
+  },
+  "bleu_max_over_refs": {
+    "mean": 0.4216,
+    "std": 0.2525,
+    "median": 0.3996
+  },
+  "sari": {
+    "mean": 77.92,
+    "std": 13.03,
+    "median": 78.79
+  },
+  "compression": {
+    "word_ratio": {
+      "mean": 0.6031,
+      "std": 0.1217,
+      "median": 0.5926
+    },
+    "char_ratio": {
+      "mean": 0.5302,
+      "std": 0.1039,
+      "median": 0.5299
+    },
+    "avg_word_reduction_pct": 39.69
+  },
+  "avg_sentence_length": {
+    "original": {
+      "mean": 31.22,
+      "std": 5.17,
+      "median": 31.0
+    },
+    "pred": {
+      "mean": 18.7,
+      "std": 4.49,
+      "median": 18.0
+    },
+    "reduction": 12.52
+  }
+}
